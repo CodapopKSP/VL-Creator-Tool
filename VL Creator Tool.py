@@ -3,27 +3,31 @@
 import tkinter as tk
 from tkinter import StringVar, IntVar
 import csv
+from datetime import timedelta, date
+from openpyxl import Workbook
+import ast
+from openpyxl.styles import Font, Alignment, Border, Side
 
 root = tk.Tk()
 root.title("VL Creator Tool")
 root.resizable(False, False)
 root.geometry("500x400+2500+300")
 
-bookSelect = tk.Frame(root, width=500)
-book1 = tk.Frame(bookSelect, bg="#E5E7E9", width=100)
-book2 = tk.Frame(bookSelect, bg="#ECF0F1", width=100)
-book3 = tk.Frame(bookSelect, bg="#E5E7E9", width=100)
-book4 = tk.Frame(bookSelect, bg="#ECF0F1", width=100)
-book5 = tk.Frame(bookSelect, bg="#E5E7E9", width=100)
+headerFrame = tk.Frame(root)
 
-wordSelectCanvas = tk.Canvas(root, bg="white")
-wordSelectFrame = tk.Frame(wordSelectCanvas, bg="white")
+bookSelect = tk.Frame(root, width=500, highlightbackground="purple", highlightthickness=1)
+book1 = tk.Frame(bookSelect, bg="#E5E7E9", width=100, highlightbackground="purple", highlightthickness=1)
+book2 = tk.Frame(bookSelect, bg="#ECF0F1", width=100, highlightbackground="purple", highlightthickness=1)
+book3 = tk.Frame(bookSelect, bg="#E5E7E9", width=100, highlightbackground="purple", highlightthickness=1)
+book4 = tk.Frame(bookSelect, bg="#ECF0F1", width=100, highlightbackground="purple", highlightthickness=1)
+book5 = tk.Frame(bookSelect, bg="#E5E7E9", width=100, highlightbackground="purple", highlightthickness=1)
+
+wordSelectCanvas = tk.Canvas(root, bg="white", width=473)
+wordSelectFrame = tk.Frame(wordSelectCanvas, bg="white", width=473)
 vscrollbar = tk.Scrollbar(root, orient="vertical", command=wordSelectCanvas.yview)
 hscrollbar = tk.Scrollbar(root, orient="horizontal", command=wordSelectCanvas.xview)
 wordSelectCanvas.configure(yscrollcommand=vscrollbar.set)
 wordSelectCanvas.configure(xscrollcommand=hscrollbar.set)
-
-
 #-----------------------------------------------------------------------------------
 
 
@@ -80,6 +84,7 @@ def submitBook(bookName, textA, textB):
 
 # === Book Select Functions ================================================================
 def handleStuff2():
+	clearDisplay()
 	with open('dataHandler.csv', mode='w', newline="") as dataHandler:
 		dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		dataHandler_write.writerow([])
@@ -88,7 +93,6 @@ def handleStuff2():
 	submitBook(readDrop3(), readText3a(), readText3b())
 	submitBook(readDrop4(), readText4a(), readText4b())
 	submitBook(readDrop5(), readText5a(), readText5b())
-	clearDisplay()
 	displayData()
 	# --- Update Status Bar ---
 	bookStats1 = readDrop1() + ": p" + readText1a() + "-" + readText1b()
@@ -149,33 +153,224 @@ def readText5b():
 	text5b = entry5b.get("1.0", "end-1c")
 	return text5b
 #-----------------------------------------------------------------------------------
-
+words = []
+var = []
 
 def displayData():
 	buttonBuildVL.pack(side="bottom", pady=10)
 	vscrollbar.pack(side="right", fill="y")
 	hscrollbar.pack(side="bottom", anchor="w", fill="x")
-	wordSelectCanvas.pack(side="left", pady=10)
+	wordSelectCanvas.pack(side="right", anchor="w", pady=10, fill="x")
 	wordSelectCanvas.create_window((0, 0), window=wordSelectFrame, anchor='n')
 	wordSelectFrame.bind("<Configure>", scroll_CB)
 	with open('dataHandler.csv', mode='r') as dataHandler:
-		data=list(csv.reader(dataHandler, delimiter=';', quotechar='"'))
+		data=list(csv.reader(dataHandler, delimiter=';', quotechar='|'))
 		for row in data:
 			if (len(row)>0):
 				word = StringVar()
+				checkVar = tk.BooleanVar()
 				word.set(row)
-				display = tk.Checkbutton(wordSelectFrame, textvariable=word, fg="blue", bg="white", bd=1, relief="sunken")
-				display.pack(side="top", anchor="w")
-
-		
+				words.append(row)
+				var.append(checkVar)
+				display = tk.Checkbutton(wordSelectFrame, variable=checkVar, textvariable=word, fg="blue", bg="white", bd=1, relief="sunken")
+				display.pack(side="top", anchor="w")	
 
 def clearDisplay():
 	for display in wordSelectFrame.winfo_children():
 		display.destroy()
+		words.clear()
+		displays.clear()
 
 def scroll_CB(event):
 	wordSelectCanvas.configure(scrollregion=wordSelectCanvas.bbox("all"))
 	wordSelectCanvas.xview_moveto(0)
+
+def set_border(ws, cell_range):
+    border = Border(left=Side(border_style='thin', color='000000'),
+                right=Side(border_style='thin', color='000000'),
+                top=Side(border_style='thin', color='000000'),
+                bottom=Side(border_style='thin', color='000000'))
+
+    rows = ws[cell_range]
+    for row in rows:
+        for cell in row:
+            cell.border = border
+
+def buildVL():
+
+
+	workbook = Workbook()
+	vocabList = workbook.active
+
+	# --- Build the Template ---
+	vocabList.merge_cells('C1:D1')
+	vocabList.column_dimensions['A'].width = 2
+	vocabList.column_dimensions['B'].width = 12
+	vocabList.column_dimensions['C'].width = 12
+	vocabList.column_dimensions['D'].width = 24
+	vocabList.column_dimensions['E'].width = 35
+
+
+	levelNumber = levelEntry.get("1.0", "end-1c")
+	weekNumber = weekEntry.get("1.0", "end-1c")
+	vocabList["B1"] = ("Level " + levelNumber)
+	vocabList["B1"].font = Font(name="Arial", size=12, bold=True)
+	vocabList["C1"] = ("Vocabulary Week " + weekNumber)
+	vocabList["C1"].font = Font(name="Arial", size=12, bold=True)
+	vocabList["C1"].alignment = Alignment(horizontal="center")
+	vocabList["E1"] = "Name: ______________"
+	vocabList["E1"].font = Font(name="Arial", size=12, bold=True)
+	vocabList["E1"].alignment = Alignment(horizontal="center")
+	dayCheck = 0
+	dayCell = 2
+	if monVar.get() == 1:
+		dayCheck = dayCheck + 1
+		vocabList["B2"] = "Monday"
+		vocabList["B" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+		set_border(vocabList, "A" + str(dayCell + 1) + ":" + "E" + str(dayCell + 6))
+		if autoDate.get() == 1:
+			vocabList["E2"] = str(nextMonday)
+			vocabList["E" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+			vocabList["E" + str(dayCell)].alignment = Alignment(horizontal="right")
+		dayCell = dayCell + 7
+
+	if tueVar.get() == 1:
+		dayCheck = dayCheck + 1
+		vocabList["B" + str(dayCell)] = "Tuesday"
+		vocabList["B" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+		set_border(vocabList, "A" + str(dayCell + 1) + ":" + "E" + str(dayCell + 6))
+		if autoDate.get() == 1:
+			vocabList["E" + str(dayCell)] = str(nextTuesday)
+			vocabList["E" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+			vocabList["E" + str(dayCell)].alignment = Alignment(horizontal="right")
+		dayCell = dayCell + 7
+
+	if wedVar.get() == 1:
+		dayCheck = dayCheck + 1
+		vocabList["B" + str(dayCell)] = "Wednesday"
+		vocabList["B" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+		set_border(vocabList, "A" + str(dayCell + 1) + ":" + "E" + str(dayCell + 6))
+		if autoDate.get() == 1:
+			vocabList["E" + str(dayCell)] = str(nextWednesday)
+			vocabList["E" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+			vocabList["E" + str(dayCell)].alignment = Alignment(horizontal="right")
+		dayCell = dayCell + 7
+
+	if thuVar.get() == 1:
+		dayCheck = dayCheck + 1
+		vocabList["B" + str(dayCell)] = "Thursday"
+		vocabList["B" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+		set_border(vocabList, "A" + str(dayCell + 1) + ":" + "E" + str(dayCell + 6))
+		if autoDate.get() == 1:
+			vocabList["E" + str(dayCell)] = str(nextThursday)
+			vocabList["E" + str(dayCell)].font = Font(name="Arial", size=12, bold=True)
+			vocabList["E" + str(dayCell)].alignment = Alignment(horizontal="right")
+		dayCell = dayCell + 7
+
+	rowCount = 3
+	printCount = 0
+	while printCount < dayCheck:
+		vocabList[("B" + str(rowCount))] = "Word"
+		vocabList[("B" + str(rowCount))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("C" + str(rowCount))] = "Syllables"
+		vocabList[("C" + str(rowCount))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("D" + str(rowCount))] = "Definition"
+		vocabList[("D" + str(rowCount))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("E" + str(rowCount))] = "Sentence"
+		vocabList[("E" + str(rowCount))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("A" + str(rowCount + 1))] = "1"
+		vocabList[("A" + str(rowCount + 2))] = "2"
+		vocabList[("A" + str(rowCount + 3))] = "3"
+		vocabList[("A" + str(rowCount + 4))] = "4"
+		vocabList[("A" + str(rowCount + 5))] = "5"
+		vocabList.row_dimensions[rowCount + 1].height = 25
+		vocabList.row_dimensions[rowCount + 2].height = 25
+		vocabList.row_dimensions[rowCount + 3].height = 25
+		vocabList.row_dimensions[rowCount + 4].height = 25
+		vocabList.row_dimensions[rowCount + 5].height = 25
+		vocabList[("A" + str(rowCount + 1))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("A" + str(rowCount + 2))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("A" + str(rowCount + 3))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("A" + str(rowCount + 4))].font = Font(name="Arial", size=12, bold=True)
+		vocabList[("A" + str(rowCount + 5))].font = Font(name="Arial", size=12, bold=True)
+		rowCount = rowCount + 7
+		printCount = printCount + 1
+	dayCheck = 0
+
+
+
+		# --- Get Words/Sentences ---
+	displayCount = -1
+	for display in wordSelectFrame.winfo_children():
+		displayCount=displayCount+1
+		if var[displayCount].get() == 1:
+				list1 = str(words[displayCount])
+				print(list1)
+				wordText = display.cget("text")
+				list1 = ast.literal_eval(list1)
+				print(list1[1])
+				vocabList["B4"] = list1[0]
+				workbook.save(filename="Output/hello_world.xlsx")
+
+
+
+
+
+
+
+
+
+
+
+headerFrame.pack(side="top", pady=10)
+weekEntryLabel = tk.Label(headerFrame, text="Week:")
+weekEntry = tk.Text(headerFrame, height=1, width=3)
+levelEntryLabel = tk.Label(headerFrame, text="Level:")
+levelEntry = tk.Text(headerFrame, height=1, width=3)
+monVar = tk.BooleanVar()
+tueVar = tk.BooleanVar()
+wedVar = tk.BooleanVar()
+thuVar = tk.BooleanVar()
+autoDate = tk.BooleanVar()
+mondayCheckBox = tk.Checkbutton(headerFrame, text="Mon", variable=monVar, bg="#E5E7E9")
+tuesdayCheckBox = tk.Checkbutton(headerFrame, text="Tue", variable=tueVar, bg="#E5E7E9")
+wednesdayCheckBox = tk.Checkbutton(headerFrame, text="Wed", variable=wedVar, bg="#E5E7E9")
+thursdayCheckBox = tk.Checkbutton(headerFrame, text="Thurs", variable=thuVar, bg="#E5E7E9")
+dateCheckBox = tk.Checkbutton(headerFrame, text="Use Auto Dates", variable=autoDate)
+
+weekEntryLabel.grid(row=0, column=0, sticky="e")
+weekEntry.grid(row=0, column=1, sticky="w", padx=5)
+levelEntryLabel.grid(row=0, column=2, sticky="e")
+levelEntry.grid(row=0, column=3, sticky="w", padx=5)
+
+mondayCheckBox.grid(row=0, column=4)
+tuesdayCheckBox.grid(row=0, column=5)
+wednesdayCheckBox.grid(row=0, column=6)
+thursdayCheckBox.grid(row=0, column=7)
+mondayCheckBox.select()
+tuesdayCheckBox.select()
+wednesdayCheckBox.select()
+thursdayCheckBox.select()
+dateCheckBox.grid(row=0, column=8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # ---Titles ---
@@ -245,7 +440,7 @@ entry5b.grid(row=2, column=1, padx=5)
 
 # --- Submit ---
 buttonSubmit = tk.Button(root, width=30, fg="purple", text="Submit", command=handleStuff2)
-buttonSubmit.pack()
+buttonSubmit.pack(side="top", pady=10)
 #-----------------------------------------------------------------------------------
 
 # === Status Bar ===
@@ -255,12 +450,27 @@ statusBar = tk.Label(root, textvariable=statusText, fg="blue", bd=1, relief="sun
 statusBar.pack(side="bottom", fill="x")
 #-----------------------------------------------------------------------------------
 
-buttonBuildVL = tk.Button(root, width=30, fg="purple", text="Build!")
+buttonBuildVL = tk.Button(root, width=30, fg="blue", text="Build!", command=buildVL)
 
 
 
-
-
+# === Date Management ==============================================================
+today = date.today()
+dayOfWeek = today.weekday()
+daysUntilSunday = dayOfWeek - 7
+dayCount = 0
+if dayOfWeek > 0:
+	while daysUntilSunday < 0:
+		dayCount = dayCount + 1
+		print(dayCount)
+		daysUntilSunday = daysUntilSunday + 1
+		if daysUntilSunday == 0:
+			break
+nextMonday = (today + timedelta(days=dayCount))
+nextTuesday = (today + timedelta(days=dayCount + 1))
+nextWednesday = (today + timedelta(days=dayCount + 2))
+nextThursday = (today + timedelta(days=dayCount + 3))
+#-----------------------------------------------------------------------------------
 
 
 # === Run It! ===
