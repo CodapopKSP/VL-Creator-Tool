@@ -14,7 +14,6 @@ root.resizable(False, False)
 root.geometry("500x400+2500+300")
 
 headerFrame = tk.Frame(root)
-
 bookSelect = tk.Frame(root, width=500, highlightbackground="purple", highlightthickness=1)
 book1 = tk.Frame(bookSelect, bg="#E5E7E9", width=100, highlightbackground="purple", highlightthickness=1)
 book2 = tk.Frame(bookSelect, bg="#ECF0F1", width=100, highlightbackground="purple", highlightthickness=1)
@@ -30,60 +29,25 @@ wordSelectCanvas.configure(yscrollcommand=vscrollbar.set)
 wordSelectCanvas.configure(xscrollcommand=hscrollbar.set)
 #-----------------------------------------------------------------------------------
 
-
+books = ["SBS 1", "Phonics A", "Reading 1", "Writing 1", "SBS WB 1"]
+files = ['Books/Side By Side/sbs1.csv', 'Books/Phonics/phonicsA.csv', 'Books/Reading/reading1.csv', 'Books/Writing/writing1.csv', 'Books/Side By Side Workbook/sbswork1.csv']
 
 # === Retrieve Entries from Files ==================================================
 def submitBook(bookName, textA, textB):
-	if (bookName == "SBS 1"):
-		with open('Books/Side By Side/sbs1.csv') as csv_sbs1:
-			csv_reader = csv.reader(csv_sbs1, delimiter=';')
-			for row in csv_reader:
-				if ((row[0] >= textA) and (row[0] <= textB)):
-					with open('dataHandler.csv', mode='a', newline="") as dataHandler:
-						dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-						dataHandler_write.writerow([row[1], row[2], row[3]])
-					print(row[1], row[2], row[3])
-	if (bookName == "Phonics A"):
-		with open('Books/Phonics/phonicsA.csv') as csv_phonA:
-			csv_reader = csv.reader(csv_phonA, delimiter=';')
-			for row in csv_reader:
-				if ((row[0] >= textA) and (row[0] <= textB)):
-					with open('dataHandler.csv', mode='a', newline="") as dataHandler:
-						dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-						dataHandler_write.writerow([row[1], row[2], row[3]])
-					print(row[1], row[2], row[3])
-	if (bookName == "Reading 1"):
-		with open('Books/Reading/reading1.csv') as csv_read1:
-			csv_reader = csv.reader(csv_read1, delimiter=';')
-			for row in csv_reader:
-				if ((row[0] >= textA) and (row[0] <= textB)):
-					with open('dataHandler.csv', mode='a', newline="") as dataHandler:
-						dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-						dataHandler_write.writerow([row[1], row[2], row[3]])
-					print(row[1], row[2], row[3])
-	if (bookName == "Writing 1"):
-		with open('Books/Writing/writing1.csv') as csv_write1:
-			csv_reader = csv.reader(csv_write1, delimiter=';')
-			for row in csv_reader:
-				if ((row[0] >= textA) and (row[0] <= textB)):
-					with open('dataHandler.csv', mode='a', newline="") as dataHandler:
-						dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-						dataHandler_write.writerow([row[1], row[2], row[3]])
-					print(row[1], row[2], row[3])
-	if (bookName == "SBS WB 1"):
-		with open('Books/Side By Side Workbook/sbswork1.csv') as csv_sbswb1:
-			csv_reader = csv.reader(csv_sbswb1, delimiter=';')
-			for row in csv_reader:
-				if ((row[0] >= textA) and (row[0] <= textB)):
-					with open('dataHandler.csv', mode='a', newline="") as dataHandler:
-						dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-						dataHandler_write.writerow([row[1], row[2], row[3]])
-					print(row[1], row[2], row[3])
+	for i in range(len(books)):
+		if (bookName == books[i]):
+			with open(files[i]) as csv_file:
+				csv_reader = csv.reader(csv_file, delimiter=';')
+				for row in csv_reader:
+					if ((row[0] >= textA) and (row[0] <= textB)):
+						with open('dataHandler.csv', mode='a', newline="") as dataHandler:
+							dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+							dataHandler_write.writerow([row[1], row[2], row[3], row[4]])
 #-----------------------------------------------------------------------------------
 
 
 # === Book Select Functions ================================================================
-def handleStuff2():
+def selectBooks():
 	clearDisplay()
 	with open('dataHandler.csv', mode='w', newline="") as dataHandler:
 		dataHandler_write = csv.writer(dataHandler, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -179,7 +143,7 @@ def clearDisplay():
 	for display in wordSelectFrame.winfo_children():
 		display.destroy()
 		words.clear()
-		displays.clear()
+		var.clear()
 
 def scroll_CB(event):
 	wordSelectCanvas.configure(scrollregion=wordSelectCanvas.bbox("all"))
@@ -190,15 +154,12 @@ def set_border(ws, cell_range):
                 right=Side(border_style='thin', color='000000'),
                 top=Side(border_style='thin', color='000000'),
                 bottom=Side(border_style='thin', color='000000'))
-
     rows = ws[cell_range]
     for row in rows:
         for cell in row:
             cell.border = border
 
 def buildVL():
-
-
 	workbook = Workbook()
 	vocabList = workbook.active
 
@@ -209,7 +170,6 @@ def buildVL():
 	vocabList.column_dimensions['C'].width = 12
 	vocabList.column_dimensions['D'].width = 24
 	vocabList.column_dimensions['E'].width = 35
-
 
 	levelNumber = levelEntry.get("1.0", "end-1c")
 	weekNumber = weekEntry.get("1.0", "end-1c")
@@ -295,33 +255,43 @@ def buildVL():
 		vocabList[("A" + str(rowCount + 5))].font = Font(name="Arial", size=12, bold=True)
 		rowCount = rowCount + 7
 		printCount = printCount + 1
+
+		# --- Get Words/Sentences ---
+	displayCount = -1
+	columnCount = 0
+	wordRowCount = 4
+	dayCheckMulti = (dayCheck * 7) + 4
+	for display in wordSelectFrame.winfo_children():
+		displayCount=displayCount+1
+		if var[displayCount].get() == 1:
+			list1 = str(words[displayCount])
+			list1 = ast.literal_eval(list1)
+			vocabList["B" + str(wordRowCount)] = list1[columnCount]
+			vocabList["C" + str(wordRowCount)] = list1[columnCount+1]
+			vocabList["D" + str(wordRowCount)] = list1[columnCount+2]
+			vocabList["E" + str(wordRowCount)] = list1[columnCount+3]
+			vocabList["B" + str(wordRowCount)].font = Alignment(wrapText=True, vertical="center")
+			vocabList["C" + str(wordRowCount)].font = Alignment(wrapText=True, vertical="center")
+			vocabList["D" + str(wordRowCount)].font = Alignment(wrapText=True, vertical="center")
+			vocabList["E" + str(wordRowCount)].font = Alignment(wrapText=True, vertical="center")
+			vocabList["B" + str(wordRowCount)].font = Font(name="Arial", size=12)
+			vocabList["C" + str(wordRowCount)].font = Font(name="Arial", size=12)
+			vocabList["D" + str(wordRowCount)].font = Font(name="Arial", size=12)
+			vocabList["E" + str(wordRowCount)].font = Font(name="Arial", size=12)
+			wordRowCount = wordRowCount + 1
+			if (wordRowCount==9):
+				wordRowCount = wordRowCount + 2
+			if (wordRowCount==16):
+				wordRowCount = wordRowCount + 2
+			if (wordRowCount==23):
+				wordRowCount = wordRowCount + 2
+		workbook.save(filename="Output/Vocab List Week " + str(weekNumber) + ".xlsx")
 	dayCheck = 0
 
 
 
-		# --- Get Words/Sentences ---
-	displayCount = -1
-	for display in wordSelectFrame.winfo_children():
-		displayCount=displayCount+1
-		if var[displayCount].get() == 1:
-				list1 = str(words[displayCount])
-				print(list1)
-				wordText = display.cget("text")
-				list1 = ast.literal_eval(list1)
-				print(list1[1])
-				vocabList["B4"] = list1[0]
-				workbook.save(filename="Output/hello_world.xlsx")
 
-
-
-
-
-
-
-
-
-
-
+# === Header Parameters =================================================================
 headerFrame.pack(side="top", pady=10)
 weekEntryLabel = tk.Label(headerFrame, text="Week:")
 weekEntry = tk.Text(headerFrame, height=1, width=3)
@@ -352,45 +322,45 @@ tuesdayCheckBox.select()
 wednesdayCheckBox.select()
 thursdayCheckBox.select()
 dateCheckBox.grid(row=0, column=8)
+#-----------------------------------------------------------------------------------
 
 
+# === Date Management ==============================================================
+today = date.today()
+dayOfWeek = today.weekday()
+daysUntilSunday = dayOfWeek - 7
+dayCount = 0
+if dayOfWeek > 0:
+	while daysUntilSunday < 0:
+		dayCount = dayCount + 1
+		daysUntilSunday = daysUntilSunday + 1
+		if daysUntilSunday == 0:
+			break
+nextMonday = (today + timedelta(days=dayCount))
+nextTuesday = (today + timedelta(days=dayCount + 1))
+nextWednesday = (today + timedelta(days=dayCount + 2))
+nextThursday = (today + timedelta(days=dayCount + 3))
+#-----------------------------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ---Titles ---
+# === Book Select Parameters =======================================================
 bookTitle1 = tk.Label(book1, text="Book 1", bg="#E5E7E9", fg="purple")
 bookTitle2 = tk.Label(book2, text="Book 2", bg="#ECF0F1", fg="purple")
 bookTitle3 = tk.Label(book3, text="Book 3", bg="#E5E7E9", fg="purple")
 bookTitle4 = tk.Label(book4, text="Book 4", bg="#ECF0F1", fg="purple")
 bookTitle5 = tk.Label(book5, text="Book 5", bg="#E5E7E9", fg="purple")
+
 # ---Drop Menus---
-options = ["SBS 1", "Phonics A", "Reading 1", "Writing 1", "SBS WB 1"]
 dropVal1 = StringVar()
 dropVal2 = StringVar()
 dropVal3 = StringVar()
 dropVal4 = StringVar()
 dropVal5 = StringVar()
-drop1 = tk.OptionMenu(book1, dropVal1, *options)
-drop2 = tk.OptionMenu(book2, dropVal2, *options)
-drop3 = tk.OptionMenu(book3, dropVal3, *options)
-drop4 = tk.OptionMenu(book4, dropVal4, *options)
-drop5 = tk.OptionMenu(book5, dropVal5, *options)
+drop1 = tk.OptionMenu(book1, dropVal1, *books)
+drop2 = tk.OptionMenu(book2, dropVal2, *books)
+drop3 = tk.OptionMenu(book3, dropVal3, *books)
+drop4 = tk.OptionMenu(book4, dropVal4, *books)
+drop5 = tk.OptionMenu(book5, dropVal5, *books)
 # ---Page Number Entries---
 entry1a = tk.Text(book1, height=1, width=4)
 entry1b = tk.Text(book1, height=1, width=4)
@@ -436,43 +406,25 @@ bookTitle5.grid(row=0, column=0, columnspan=2)
 drop5.grid(row=1, column=0, columnspan=2)
 entry5a.grid(row=2, column=0, padx=5)
 entry5b.grid(row=2, column=1, padx=5)
-
-
-# --- Submit ---
-buttonSubmit = tk.Button(root, width=30, fg="purple", text="Submit", command=handleStuff2)
-buttonSubmit.pack(side="top", pady=10)
 #-----------------------------------------------------------------------------------
+
+
+# === Submit ======================================================================
+buttonSubmit = tk.Button(root, width=30, fg="purple", text="Submit", command=selectBooks)
+buttonSubmit.pack(side="top", pady=10)
 
 # === Status Bar ===
 statusText = StringVar(root)
 statusText.set('Select books and pages...')
 statusBar = tk.Label(root, textvariable=statusText, fg="blue", bd=1, relief="sunken", anchor="w")
 statusBar.pack(side="bottom", fill="x")
-#-----------------------------------------------------------------------------------
 
+# === Build Bar ===
 buttonBuildVL = tk.Button(root, width=30, fg="blue", text="Build!", command=buildVL)
-
-
-
-# === Date Management ==============================================================
-today = date.today()
-dayOfWeek = today.weekday()
-daysUntilSunday = dayOfWeek - 7
-dayCount = 0
-if dayOfWeek > 0:
-	while daysUntilSunday < 0:
-		dayCount = dayCount + 1
-		print(dayCount)
-		daysUntilSunday = daysUntilSunday + 1
-		if daysUntilSunday == 0:
-			break
-nextMonday = (today + timedelta(days=dayCount))
-nextTuesday = (today + timedelta(days=dayCount + 1))
-nextWednesday = (today + timedelta(days=dayCount + 2))
-nextThursday = (today + timedelta(days=dayCount + 3))
 #-----------------------------------------------------------------------------------
 
 
-# === Run It! ===
+
+# === Run It! ======================================================================
 root.mainloop()
 #-----------------------------------------------------------------------------------
