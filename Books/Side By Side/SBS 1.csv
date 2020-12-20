@@ -1,0 +1,488 @@
+1;"alphabet";"al-pha-bet";"letters in English, ABC";"How many letters are in the alphabet?"
+1;"numbers";"num-bers";"1, 2, 3, 4, 5...";"I would like you to read number one."
+1;"name";"name";"what you are called";"Can you please tell me your name?"
+1;"address";"ad-dress";"where you live";"What is the address of the school?"
+1;"phone number";"phone-num-ber";"the number to call someone";"Here is my phone number so you can call me."
+2;"main";"main";"the biggest one, most important";"Many people work on Main Street."
+2;"street";"street";"a place where cars can drive";"Don't play in the street!"
+2;"Mexico";"Mex-i-co";"a country near America where people speak Spanish";"Have you ever been to Mexico?"
+2;"city";"cit-y";"a place where many people live and work";"How many people live in your city?"
+3;"famous";"fa-mous";"many people know about them";"That singer is rich and famous."
+3;"practice";"prac-tice";"to study, to do many times to get better";"You need to practice every day to get better."
+3;"actor";"act-or";"a person who acts in a movie";"Who is your favorite actor?"
+3;"actress";"act-ress";"a female actor";"She is my favorite actress."
+3;"athlete";"ath-lete";"a person who plays sports";"The athlete hits the ball very far."
+3;"president";"pres-i-dent";"a person who leads the country";"Who is the president of Taiwan?"
+3;"prime minister";"prime-min-is-ter";"a person who leads the country";"Who is the prime minister of Japan?"
+3;"leader";"lead-er";"a person who tells others what to do";"The leader of the team works very hard."
+4;"America";"A-mer-i-ca";"USA, a country where a lot of teachers are from";"Would you like to visit America?"
+4;"license";"li-cense";"a card that says you can do something";"Do you have a license to drive?"
+4;"e-mail";"e-mail";"a message on a computer";"I will send you an e-mail when I get home."
+4;"river";"riv-er";"a body of moving water";"Many fish and turtles swim in the river."
+4;"New York";"New-York";"the biggest city in America";"New York is the largest city in America."
+4;"emergency";"e-mer-gen-cy";"a very serious problem";"Who do you call if you have an emergency?"
+5;"apartment";"a-part-ment";"a part of a building where people live";"His apartment is very nice but a little small."
+5;"spell";"spell";"to say the letters in a word";"How many words can you spell?"
+5;"first";"first";"number 1";"I want to be the first person to walk on Mars."
+6;"center";"cent-er";"the middle";"There are many stores near the center of the city."
+7;"desk";"desk";"a table where you can do work";"Make sure you clean your desk at least once per week."
+7;"computer";"com-pu-ter";"a machine that does math and can use the internet";"Do you know how to use a computer?"
+7;"bank";"bank";"a place where you can save and borrow money";"We can go borrow some money from the bank."
+7;"post office";"post-of-fice";"a place where you can send mail";"The post office is only open from 8:00 to 6:00."
+7;"restaurant";"rest-aur-ant";"a place where you can buy and eat food";"She eats at this restaurant three times per week."
+7;"kitchen";"kit-chen";"a room where you make food";"Does your apartment have a large kitchen?"
+8;"bookshelf";"book-shelf";"a box on the wall that holds books";"Please return your books to the bookshelf every day."
+8;"globe";"globe";"a ball that looks like the Earth";"How is a globe better than a map?"
+8;"table";"ta-ble";"furniture with a flat top and 4 legs";"The kids are hiding under the table!"
+8;"ruler";"ru-ler";"a tool that lets you measure and draw straight lines";"Your ruler can tell you how long something is."
+8;"dictionary";"dic-tion-ar-y";"a book that tells you the meaning of words";"How many words are in the dictionary?"
+9;"notebook";"note-book";"a book that you can write in";"You should write your homework in your notebook."
+10;"dining room";"di-ning-room";"a room with a table where you can eat food";"We will have dinner in the dining room."
+10;"attic";"at-tic";"a room in the top of a house";"I think there's a ghost in the attic!"
+10;"yard";"yard";"a place outside a house with grass and maybe a garden";"The dog is running around the yard."
+10;"garage";"gar-age";"a room to park a car in";"You have a really big garage!"
+10;"basement";"base-ment";"a room under a house or building";"I'm afraid of the mice in my basement."
+11;"living room";"liv-ing-room";"a room where you can sit and watch TV";"Does your living room have a TV?"
+12;"cell phone";"cell-phone";"a machine that allows you to call people";"I lost my cell phone on the MRT!"
+13;"interesting";"in-ter-es-ting";"cool, fun to look at, fun to think about";"I am reading an interesting book."
+13;"Tokyo";"To-ky-o";"the biggest city in Japan";"Have you ever been to Tokyo?"
+13;"country";"coun-try";"a place with a government and a president";"How many countries have you been to?"
+13;"friend";"friend";"someone you can play with";"You can ask a friend to play a game with you."
+14;"monkey";"mon-key";"an animal that climbs trees and eats bananas";"The monkeys swing from tree to tree."
+14;"hospital";"hos-pit-al";"a place where you can see a doctor";"We need to go to the hospital right away!"
+14;"theater";"theat-er";"a place where you can watch movies on a big screen or see someone perform on a stage";"We can see a movie at the theater this weekend."
+14;"library";"li-brar-y";"a place where you can borrow and read books";"Please be quiet while you are in the library!"
+14;"supermarket";"su-per-mar-ket";"a place where you can buy food to cook at home";"He shops at the supermarket every week."
+14;"zoo";"zoo";"a place where you can see many animals";"What is your favorite animal in the zoo?"
+15;"absent";"ab-sent";"not here, gone";"I'm sorry, but the boss is absent today."
+15;"dentist";"dent-ist";"a tooth doctor";"The dentist says I need to take better care of my teeth."
+15;"office";"of-fice";"a place where people can work";"Every day she works in the office in the city."
+15;"except";"ex-cept";"but not, everything but not this";"Everyone finished the race except for Bob."
+16;"classroom";"class-room";"a room where you can learn in school";"How many students are in the classroom?"
+17;"study";"stud-y";"to read homework and learn";"Make sure you study for the test every week!"
+17;"plant";"plant";"to put a tree or flower in the ground";"It is important to plant trees in your city."
+17;"watch";"watch";"a clock on your arm";"How many hands does your watch have?"
+17;"listen";"list-en";"to hear and think about";"You should stop and listen before you cross the street."
+17;"piano";"pi-an-o";"an instrument with black and white keys";"Do you know how to play the piano?"
+18;"cook";"cook";"to make food";"You can help your parents cook dinner."
+19;"newspaper";"news-pa-per";"a big paper that you can read every day that tells you what happened";"What does the newspaper say about the president?"
+20;"guitar";"gui-tar";"an instrument with 6 strings";"She has played the guitar for five years."
+20;"cards";"cards";"52 pieces of paper that you use to play a game";"Do you want to play cards with me?"
+20;"breakfast";"break-fast";"the first real of the day, eat in the morning";"What time do you usually eat breakfast?"
+21;"math";"math";"to add or subtract numbers";"I don't understand the math that we are learning in class."
+22;"shine";"shine";"to have a lot of light coming from something";"The light shines on the book on the table."
+22;"beautiful";"beau-ti-ful";"very pretty";"The big, beautiful house is on the top of the hill."
+22;"radio";"ra-di-o";"a machine that can play music from the air";"Turn on the radio and find some music!"
+22;"family";"fam-il-y";"people you live with";"How many people are in your family?"
+22;"flower";"flow-er";"a plant that has beautiful petals";"The actress gets a lot of flowers from her fans."
+23;"answer";"an-swer";"to say how to fix a problem";"Can you answer all of the questions on this page?"
+23;"baseball";"base-ball";"a game where you hit a ball with a bat";"The kids play baseball every day after school."
+23;"beach";"beach";"a sandy place near the ocean";"The dog runs on the beach and jumps in the water."
+24;"swim";"swim";"to move in water";"Do you like to swim in the ocean or in a pool?"
+25;"violin";"vi-o-lin";"an instrument with 4 strings that you play with a bow";"She needs to buy a new string for her violin."
+25;"trumpet";"trum-pet";"an instrument that you blow into with 3 valves";"What sound does a trumpet make?"
+25;"chess";"chess";"a game with black and white queens";"Which color goes first in chess, black or white?"
+25;"student";"stu-dent";"a person who studies";"The students are studying for their test."
+25;"nickname";"nick-name";"a name that your friends call you";"My name is too long, so I use a nickname."
+25;"Mr.";"Mr.";"mister, a man's title";"Have you ever met Mr. Green?"
+25;"Mrs.";"Mrs.";"missus, a woman's title";"Mrs. Brown is planting flowers in the garden."
+26;"greet";"greet";"to say hi";"How do you greet people in English?"
+26;"shake";"shake";"to move back and forth";"He shakes the dog to see if it is awake."
+26;"kiss";"kiss";"to use your mouth to mwahh";"Every marriage starts with a kiss."
+26;"hug";"hug";"to put your arms around someone";"The friends hug each other and say goodbye."
+27;"brush";"brush";"a tool with many hairs used for cleaning";"Do you paint with a brush or a roller?"
+27;"clean";"clean";"to take away dirt";"Make sure to clean your room every week."
+27;"feed";"feed";"to give food";"She feeds her dog twice each day."
+27;"fix";"fix";"to make something better after it is broken";"Do you know how to fix a car?"
+27;"paint";"paint";"colored water to put on a wall";"He paints a picture of his city in the morning."
+27;"wash";"wash";"to clean with water";"You should wash your bowl after you eat."
+27;"adjective";"ad-jec-tive";"adj, a word that talks about a noun";"How many adjectives can you name?"
+28;"homework";"home-work";"work that you do at home for school";"Remember to finish your homework before you play!"
+29;"clothes";"clothes";"things you wear";"What kind of clothes can you wear in the winter?"
+30;"exercise";"ex-er-cise";"to run and work out";"She is doing her exercises in the living room."
+30;"bicycle";"bi-cy-cle";"a machine with 2 wheels but no engine";"That red bicycle looks like it costs a lot of money!"
+30;"tooth";"tooth";"a bone in your mouth";"My tooth is about to fall out."
+30;"window";"win-dow";"a hole in the wall with glass";"Can you please open the window or turn on the AC?"
+31;"laundromat";"laund-ro-mat";"a place where you can wash clothes";"He washes his clothes at a laundromat."
+32;"busy";"bus-y";"when you have many things to do";"Are you busy next Monday?"
+32;"neighbor";"neigh-bor";"a person who lives near you";"My neighbor plays music every afternoon."
+33;"basketball";"bas-ket-ball";"a game where you throw a ball into a hoop";"We used to play basketball in the park."
+34;"grammar";"gram-mar";"a way of speaking, putting words into a sentence";"How are Chinese and English grammar different?"
+35;"tall";"tall";"high up, not short";"Who is the tallest person in the class?"
+35;"short";"short";"low down, not tall";"These pants are too short for you."
+35;"young";"young";"not old";"Her younger brother is my brother's friend."
+35;"heavy";"heav-y";"fat, big, hard to carry";"How heavy is that bag?"
+35;"thin";"thin";"not fat, not big";"The pencil is thinner than the marker."
+35;"married";"mar-ried";"with a husband or wife";"When did your grandparents get married?"
+35;"single";"sin-gle";"not married";"Maybe your single friend can meet my friend!"
+36;"handsome";"hand-some";"beautiful for a man";"Do you think her husband is handsome?"
+36;"ugly";"ug-ly";"not beautiful";"The ugly dog is chasing the cat."
+36;"large";"large";"big";"Is the car larger than the boat?"
+36;"noisy";"nois-y";"making lots of noise, not quiet";"I can't sleep because my neighbors are too noisy."
+36;"quiet";"qui-et";"not making noise";"The new motorcycle is very quiet."
+36;"expensive";"ex-pen-sive";"costing a lot of money";"The diamond ring is very expensive."
+36;"cheap";"cheap";"not costing much money";"Do you know where I can get some cheap food?"
+36;"rich";"rich";"having lots of money";"I will buy an airplane when I am rich."
+36;"poor";"poor";"not having lots of money";"I'm too poor to buy a house this year."
+37;"easy";"ea-sy";"not hard to do";"Is English easier than Chinese?"
+37;"difficult";"dif-fi-cult";"hard to do";"I think the questions on page 45 are difficult."
+40;"warm";"warm";"a little hot";"If it's too warm, you can turn on the AC."
+40;"cloudy";"cloud-y";"with many clouds in the sky";"It's cloudy, but I don't think it will rain."
+40;"cool";"cool";"a little cold";"Would you like a cool drink on this hot day?"
+41;"call";"call";"to use a phone to try to talk to someone";"Call the police if someone tries to hurt you."
+41;"vacation";"va-ca-tion";"to go somewhere for many days to play";"Did you have fun on your vacation?"
+41;"terrible";"ter-ri-ble";"very bad";"The movie was terrible, and I want my money back!"
+41;"weather";"weath-er";"what the sky is doing outside";"How's the weather today?"
+42;"hotel";"ho-tel";"a place where you can sleep for a few days";"How much does it cost to stay at the nice hotel?"
+42;"few";"few";"2, not many";"We will leave in a few hours."
+42;"truth";"truth";"the right thing, what really happened";"You should always tell the truth."
+42;"child";"child";"a kid, a baby";"The child is waiting for her mom in the car."
+42;"bored";"bored";"not having fun";"If you're bored, you should play a game."
+42;"clinic";"clin-ic";"a small hospital";"The clinick is around the corner from the school."
+42;"stomach";"stom-ach";"where food goes in your body";"He's at the doctor, because his stomach hurts."
+43;"sink";"sink";"a place where you can wash your hands";"Wash your hands in the sink before you eat."
+43;"together";"to-geth-er";"with each other, at the same place";"Would you like to sing a song together?"
+45;"wife";"wife";"a married woman";"His wife is an eye doctor."
+45;"daughter";"daugh-ter";"a girl, a mother or father's child girl";"My daughter can play the piano."
+45;"parents";"par-ents";"mom and dad or other";"You should show your test to your parents."
+45;"aunt";"aunt";"mom or dad's sister";"He sends a letter to his aunt in Germany."
+46;"father";"fath-er";"dad";"What does your father do for work?"
+46;"stand";"stand";"to stay up on two legs";"We are standing in line to buy bubble tea."
+47;"son";"son";"a boy, a mother or father's child boy";"His son is a famous painter."
+47;"front";"front";"the part that most people can see, not behind, the part in the same direction of travel";"The teacher stands at the front of the class."
+47;"husband";"hus-band";"a married man";"Where is your husband from?"
+47;"wedding";"wed-ding";"a party where people get married";"How many people are going to your wedding?"
+47;"uncle";"un-cle";"mom or dad's brother";"Can your uncle cook Italian food?"
+47;"cousin";"cous-in";"aunt or uncle's child";"Their cousins are both very tall."
+47;"building";"build-ing";"a place made by people that you can go inside";"The building has 23 floors and a basement."
+48;"niece";"niece";"brother or sister's child girl";"My niece's dog is not very nice."
+48;"act";"act";"to pretend, to be someone in a movie or play";"The kids are acting like monkeys!"
+48;"nephew";"neph-ew";"brother or sister's child boy";"Does your nephew still go to school?"
+48;"photograph";"pho-to-graph";"a picture from a camera";"These photographs are very old!"
+48;"bench";"bench";"a long seat for two people";"She sits on a bench in the park."
+49;"late";"late";"after the starting time";"Make sure you aren't late tomorrow!"
+49;"noise";"noise";"something you can hear";"Did you hear that weird noise?"
+49;"angry";"an-gry";"not happy, mad";"If you take his candy, then he will get angry."
+49;"vacuum";"vac-uum";"a machine that you use to clean using air";"The cats are all afraid of the vacuum."
+49;"drum";"drum";"a circle you can hit to make noise";"He has played the drums for 10 years."
+49;"teenager";"teen-a-ger";"someone aged 13-19";"The teenagers dance in the park every week."
+49;"argument";"ar-gu-ment";"to fight using words";"Why are you two having an argument?"
+50;"fireplace";"fire-place";"a part of a room where you can have a fire";"Does your apartment have a fireplace?"
+50;"gown";"gown";"a dress";"She has many gowns in her closet."
+50;"popular";"pop-u-lar";"many people know and like something";"What is the most popular sport in Taiwan?"
+50;"corner";"cor-ner";"where two walls meet, a pointy part or a box";"I need you to clean the dust out of the corners of the room."
+50;"special";"spe-cial";"different and good, important";"This song is very special to me."
+51;"bark";"bark";"the sound a dog makes";"The dog is barking in the yard."
+52;"sofa";"so-fa";"a soft bench for laying on";"She falls asleep on the sofa during the movie."
+53;"erase";"e-rase";"to make writing disappear";"You can't erase the ink from a pen."
+53;"calculator";"cal-cu-la-tor";"a machine that can do math";"Do you know how to use a calculator?"
+54;"message";"mes-sage";"a note, to send words to someone";"They send a message to their president."
+54;"common";"com-mon";"usual, same as every day";"Monkeys are very common in Southern Taiwan."
+55;"bakery";"ba-kery";"a place where bread is made and sold";"The bakery is next to the supermarket."
+55;"station";"sta-tion";"a place where a train or bus stops";"Can you please tell me how to get to the train station?"
+55;"video";"vi-de-o";"moving pictures on a screen";"You can find the video online."
+56;"between";"be-tween";"in the middle of two things";"The school is between the library and the house."
+56;"across";"ac-ross";"to the other side of a road or river";"What is across the street from the hospital?"
+57;"department store";"de-part-ment-store";"a huge store with many small shops inside";"The three friends walk around the department store."
+57;"church";"church";"a place where Christians pray";"The church plays music every hour."
+58;"neighborhood";"neigh-bor-hood";"a part of a city, many people living near each other";"Is there a park in your neighborhood?"
+58;"gas";"gas";"water that can burn, water that your car needs to go";"We need to stop and get gas for the car."
+59;"stove";"stove";"a table with fire for cooking";"She cooks noodles on the stove."
+59;"refrigerator";"re-fri-ger-a-tor";"a big box that keeps food cold";"My refrigerator isn't working, so my milk will go bad."
+59;"escape";"es-cape";"to run away, to get away from a bad thing";"The bad guy escaped from jail!"
+59;"closet";"clos-et";"a small room for keeping clothes or other things";"Do you keep any toys in your closet?"
+59;"elevator";"el-ev-a-tor";"a small room that can go up and down";"I'm sorry, but the elevator is broken today."
+60;"floor";"floor";"how many times you can go up to another part of a building";"My family lives on the top floor of the building."
+60;"machine";"ma-chine";"a thing that works for people";"We need to find someone who can fix this machine."
+62;"hole";"hole";"a missing piece, a circle in a wall";
+63;"mall";"mall";"a big store with many smaller stores inside";
+63;"airport";"air-port";"a place where airplanes can stop";
+63;"owner";"own-er";"a person who has something";
+63;"upset";"up-set";"not happy";
+64;"convenient";"con-ve-nient";"easy to go to, very close and easy";
+64;"sidewalk";"side-walk";"a road for walking next to the street";
+65;"town";"town";"a small city";
+66;"mouse";"mouse";"a small animal with big ears";
+66;"drug store";"drug-store";"a place where you can buy medicine";
+67;"shirt";"shirt";"clothes for the top of your body and arms";
+67;"coat";"coat";"clothes to wear outside to keep you warm";
+67;"dress";"dress";"clothes with a shirt on top and a skirt on the bottom";
+67;"skirt";"skirt";"the bottom of a dress";
+67;"blouse";"blouse";"a shirt for a woman";
+68;"tie";"tie";"a long ribbon that men wear around their necks";
+68;"jacket";"jack-et";"a small coat, thin coat";
+68;"belt";"belt";"a rope that keeps your pants up";
+68;"pants";"pants";"clothes for your legs";
+68;"sock";"sock";"clothes for your feet";
+68;"shoe";"shoe";"hard clothes for your feet";
+69;"umbrella";"um-brel-la";"a tool that keeps rain off of you";
+69;"sweater";"sweat-er";"a thick and warm shirt";
+69;"watch";"watch";"a clock for your arm";
+69;"necklace";"neck-lace";"jewelry for your neck";
+69;"boot";"boot";"big and tall shoes";
+70;"purse";"purse";"a woman's bag";
+70;"suit";"suit";"pants and jacket that look the same";
+71;"glove";"glove";"clothes for your hands";
+71;"pair";"pair";"two that look the same";
+71;"earring";"ear-ring";"jewelry for your ears";
+71;"pajamas";"pa-jam-as";"clothes that you wear to bed";
+72;"rip";"rip";"to pull apart, to break paper";
+72;"empty";"emp-ty";"nothing inside";
+73;"mistake";"mis-take";"a problem, something wrong";
+73;"glasses";"glass-es";"tools for your eyes to help you see";
+74;"mitten";"mit-ten";"warm gloves with no fingers";
+74;"briefcase";"brief-case";"a small box for carrying papers";
+75;"holiday";"hol-i-day";"vacation, a special day every year";
+75;"gift";"gift";"something nice to give someone";
+75;"trouble";"trou-ble";"when you did something bad and parents or teacher are angry";
+75;"leather";"leath-er";"made from the skin of an animal";
+75;"stripe";"stripe";"a line of color";
+75;"frustrated";"frus-tra-ted";"angry, unhappy";
+76;"dirty";"dirt-y";"not clean";
+77;"culture";"cul-ture";"the things people in a country do";
+77;"lucky";"luck-y";"when many good things happen to you";
+77;"sandal";"sand-al";"shoes with no top or sides";
+78;"rural";"rur-al";"not many people living somewhere";
+79;"sell";"sell";"to try to give for money";
+79;"shop";"shop";"a place where you can buy things";
+79;"visit";"vis-it";"to go to meet someone";
+79;"work";"work";"what you can do to make money";
+80;"French";"French";"a language spoken in France";
+80;"Spanish";"Span-ish";"a language spoken in Spain and Mexico";
+81;"Hong Kong";"Hong-Kong";"a big city near the South of China";
+82;"taxi";"tax-i";"a yellow car that you can ask to take you somewhere";
+82;"Washington D.C.";"Wash-ing-ton-D.-C.";"the capital of the USA";
+83;"grocery";"gro-cer-y";"food you can cook at home";
+83;"suburb";"sub-urb";"smaller cities near a bigger city";
+83;"usually";"u-su-al-ly";"normally, most days";
+83;"weekend";"week-end";"Saturday and Sunday";
+84;"language";"lan-guage";"a way people can speak to each other";
+84;"country";"count-ry";"a land with a government";
+85;"truck";"truck";"a big car that can move things";
+87;"clean";"clean";"to make less messy";
+87;"yoga";"yo-ga";"an exercise that involves sitting and stretching";
+87;"jog";"jog";"slow run";
+87;"play (n)";"play (n)";"when people act in a story on a stage";
+88;"Mexican";"Mex-i-can";"regarding things from Mexico";
+89;"Vietnamese";"Vi-et-nam-ese";"regarding things from Vietnam";
+90;"athletic";"ath-let-ic";"good at sports, about sports";
+90;"activity";"ac-tiv-it-y";"something you can do";
+90;"orchestra";"or-ches-tra";"many people playing music together";
+90;"baby-sit";"ba-by-sit";"to take care of someone's baby";
+90;"karate";"kar-a-te";"a way of fighting from Japan";
+90;"museum";"mu-se-um";"a place where you can see many old things";
+90;"concert";"con-cert";"when you watch other people play music";
+91;"tennis";"ten-nis";"a game where you hit a ball back and forth";
+91;"choir";"choir";"many people singing together";
+91;"volleyball";"vol-ley-ball";"a game where you hit a big ball over a net";
+92;"important";"im-por-tant";"need to know, need to remember";
+92;"during";"dur-ing";"at the same time";
+92;"alone";"a-lone";"only one person, no friends";
+92;"garden";"gar-den";"a place where you can grow flowers or food";
+93;"instrument";"in-stru-ment";"a tool, a thing that can make music";
+94;"outgoing";"out-go-ing";"friendly, has many friends";
+94;"person";"per-son";"someone, one ""people""";
+94;"party";"part-y";"when many people have fun together";
+94;"shy";"shy";"doesn't like to talk, scared of people";
+95;"movie star";"mo-vie-star";"a famous person in a movie";
+95;"fiction";"fic-tion";"not real";
+95;"cartoon";"car-toon";"drawings that move on TV";
+96;"golf";"golf";"a game where you hit a small ball into a hole";
+96;"team";"team";"many people playing a game together";
+96;"lesson";"les-son";"something you can learn and remember";
+96;"hockey";"hock-ey";"a game where you skate on ice and hit a puck into a net";
+97;"common";"com-mon";"usual, easy to see every day";
+97;"internet";"in-ter-net";"many computers connected together";
+97;"dressed";"dressed";"to put on clothes to start the day";
+98;"active";"ac-tive";"likes to do many things";
+98;"jazz";"jazz";"music that involves many horns and old instruments for dancing";
+98;"novel";"nov-el";"a story book";
+98;"poetry";"po-et-ry";"pretty words that tell a story";
+99;"morning";"mor-ning";"the early part of the day, before noon";
+99;"afternoon";"af-ter-noon";"after lunch time";
+100;"boyfriend";"boy-friend";"a boy that someone likes and is dating";
+101;"rarely";"rare-ly";"almost never";
+101;"sometimes";"some-times";"more than rarely but not usually";
+101;"never";"nev-er";"no times, opposite of always";
+101;"evening";"eve-ning";"when it's starting to get dark outside, before night";
+102;"elevator";"el-e-va-tor";"a small room that goes up and down";
+102;"escalator";"es-cal-a-tor";"stairs that move up or down";
+102;"straight";"straight";"not turning, no curves";
+102;"motorcycle";"mo-tor-cy-cle";"a bike that uses gas to drive";
+103;"curly";"cur-ly";"making a circle";
+103;"journalist";"jour-nal-ist";"a person who works for a newspaper";
+103;"member";"mem-ber";"someone who is part of a group";
+104;"lucky";"luck-y";"when good things happen to you";
+104;"scientist";"sci-en-tist";"a person who studies the world";
+104;"travel";"trav-el";"to go to another country or city";
+104;"world";"world";"all places on Earth";
+105;"television";"tel-e-vis-ion";"TV";
+105;"computer";"com-pu-ter";"a machine that can connect to the internet";
+106;"often";"of-ten";"usually, many times";
+106;"library";"li-brar-y";"a place with many books";
+107;"thirsty";"thirst-y";"needs water";
+107;"nervous";"ner-vous";"scared of something that will happen";
+107;"scared";"scared";"afraid";
+108;"smile";"smile";"the shape your mouth makes when you're happy";
+108;"shiver";"shiv-er";"to shake when you are cold or scared";
+109;"perspire";"per-spire";"to sweat, when water comes out of your body when you are hot or scared";
+109;"blush";"blush";"when your face turns red";
+109;"embarrassed";"em-bar-rassed";"to make a mistake and everyone sees it";
+109;"yawn";"yawn";"to open your mouth when you are tired";
+109;"cover";"cov-er";"to make it so people can't see something";
+109;"nails";"nails";"the hard part at the end of your finger";
+110;"dishes";"dish-es";"dirty plates and cups that need to be washed";
+110;"bathtub";"bath-tub";"a tub where you can clean yourself in";
+111;"lamp";"lamp";"a light that stands on the ground";
+111;"flashlight";"flash-light";"a light you can hold";
+111;"sweep";"sweep";"to use a broom to clean the floor";
+111;"carpet";"car-pet";"a cover for the floor";
+112;"staff";"staff";"people who work at a place";
+112;"employee";"em-ploy-ee";"a person who works at a place";
+112;"unfortunate";"un-for-tu-nate";"not good, sad, bad luck";
+112;"job";"job";"work, something you do for money";
+112;"type";"type";"to use a computer to make words";
+112;"secretary";"sec-ret-ary";"a person who works at an office to help the boss";
+113;"rush";"rush";"to go faster, to try to complete quickly";
+113;"deliver";"de-liv-er";"to bring something to someone";
+113;"traffic";"traf-fic";"many cars on the road";
+114;"bite";"bite";"to use your teeth to eat";
+114;"shout";"shout";"to make a loud noise from your mouth";
+115;"hour";"hour";"60 minutes";
+115;"subway";"sub-way";"underground train";
+115;"result";"re-sult";"something that happens after you do something";
+115;"highway";"high-way";"a big street with many cars";
+115;"license";"li-cense";"a card that allows you to do something like drive";
+116;"scooter";"scoot-er";"a motorbike with two wheels";
+117;"construction";"con-struc-tion";"talking about building";
+117;"mechanic";"mech-an-ic";"a person who fixes cars";
+117;"superintendent";"su-per-in-ten-dent";"a person who takes care of a business";
+118;"ski";"ski";"to slide on snow on two sticks";
+118;"cash";"cash";"money";
+118;"skate";"skate";"to slide on ice on two special shoes";
+119;"bake";"bake";"to cook in an oven";
+119;"act";"act";"to pretend in a movie";
+120;"reception";"re-cep-tion";"the front desk of a business";
+120;"business";"busi-ness";"a place where people try to make money";
+120;"repair";"re-pair";"to fix";
+120;"tool";"tool";"something you can use to do work";
+121;"list";"list";"words on a paper that are numbered 1, 2, 3,...";
+122;"depressed";"de-pressed";"very sad";
+123;"movie";"mo-vie";"pictures on a TV that tell a story";
+123;"invite";"in-vite";"to ask someone to come with you";
+123;"apologize";"ap-ol-o-gize";"to say sorry";
+123;"bowling";"bowl-ing";"a game where you use a ball to knock down 10 pins";
+124;"apply";"ap-ply";"to ask a business if you can work for them";
+124;"form";"form";"a paper that you need to write at the doctor or other place";
+124;"downtown";"down-town";"the middle part of a city with many buildings";
+124;"ink";"ink";"colored water in a pen";
+124;"line";"line";"a thin stripe with a start and a finish";
+124;"crowded";"crowd-ed";"many people in one place";
+125;"photograph";"pho-to-graph";"a picture from a camera";
+125;"attach";"at-tach";"to put together, to stick";
+125;"order";"or-der";"to ask for food at a restaurant";
+126;"truck";"truck";"a big car";
+126;"stove";"stove";"a table that you can cook on";
+126;"lock";"lock";"a way to close a door which you need a key to open";
+127;"future";"fu-ture";"after today, after now, tomorrow";
+127;"spring";"spring";"the season where many flowers start to grow";
+127;"summer";"sum-mer";"the hottest time of the year";
+127;"autumn";"au-tumn";"the season when all the leaves change color";
+127;"winter";"win-ter";"the coldest time of the year";
+129;"beach";"beach";"a sandy place near the ocean";
+129;"tonight";"to-night";"today night, at night today";
+130;"immediately";"im-me-di-ate-ly";"right now, right away";
+130;"doorbell";"door-bell";"a button you can press at the door of a house";
+130;"plumber";"plumb-er";"a person who fixes water pipes and toilets";
+131;"garage";"gar-age";"a car's house";
+131;"iron (v)";"iron (v)";"to make clothes look smoother";
+132;"celebrate";"cel-e-brate";"to party, to be happy together for the same reason";
+132;"holiday";"hol-i-day";"a day to celebrate";
+132;"entire";"en-tire";"all, 100%";
+132;"high school";"high-school";"a school where big kids go, before university";
+132;"college";"col-lege";"university, a school where adults go";
+132;"used";"used";"someone already owned it and wants to sell it";
+133;"forecast";"fore-cast";"to try to guess what the weather will do in the future";
+133;"picnic";"pic-nic";"to eat outside at the park";
+133;"foggy";"fog-gy";"when you can't see because there is a cloud on the ground";
+133;"clear";"clear";"not dirty, no fog, easy to see";
+134;"half";"half";"50%, one out of two";
+134;"past";"past";"before now, yesterday";
+134;"quarter";"quar-ter";"25%, one out of four";
+134;"begin";"be-gin";"to start";
+134;"shave";"shave";"to cut all the hair off with a knife";
+135;"hurry";"hur-ry";"to go faster";
+135;"shower";"show-er";"to clean your whole body with water";
+135;"suitcase";"suit-case";"a box that you take on vacation to hold your clothes";
+136;"fortune";"for-tune";"to try to guess what will happen in a person's future";
+136;"wonder";"won-der";"to think about things that you don't know the answer to";
+136;"life";"life";"living, to be alive, how you feel";
+136;"cold (sick)";"cold (sick)";"a little sick";
+136;"move (house)";"move (house)";"to go to live in a new house";
+136;"fire (job)";"fire (job)";"when the boss tells you to not come back to a job";
+136;"salary";"sal-ar-y";"how much money you can make at a job every year or month";
+137;"accident";"ac-ci-dent";"a bad thing that you did but didn't want to happen";
+137;"million";"mil-li-on";"thousand thousand, 1000000";
+137;"believe";"be-lieve";"to think something is true";
+137;"wonderful";"won-der-ful";"very good, happy, great";
+138;"correct";"cor-rect";"right, not wrong";
+139;"time zone";"time-zone";"when the time is different at a different place";
+139;"East";"East";"to go right on a map";
+140;"culture";"cul-ture";"the way people in a country do things";
+141;"headache";"head-ache";"when your head hurts";
+141;"ache";"ache";"to hurt inside";
+141;"fever";"fe-ver";"when you are hot because you are sick";
+141;"cough";"cough";"to shoot air out of your mouth when you are sick";
+141;"sore";"sore";"hurt, pain";
+141;"throat";"throat";"the tube in your neck";
+142;"matter";"mat-ter";"something happening, something wrong, a problem";
+143;"rest (v)";"rest (v)";"to sleep, to relax";
+144;"appointment";"ap-point-ment";"when you have to see someone at a special time";
+145;"prepare";"pre-pare";"to get ready";
+145;"fence";"fence";"a wooden wall with no roof that you can see through";
+145;"step";"step";"to move your foot one time, to walk a little";
+145;"carpet";"car-pet";"a cover for the floor";
+147;"trip";"trip";"to fall while walking";
+147;"enjoy";"en-joy";"to like to do something, to have fun";
+148;"dust";"dust";"little pieces of dirt, gray fuzzy stuff";
+149;"groceries";"gro-ceries";"food you can buy at the store";
+149;"letter";"let-ter";"a message or note you can write";
+150;"brush";"brush";"a tool with lots of hairs that you can use for cleaning";
+150;"pie";"pie";"a cake with more liquid";
+151;"get up";"get-up";"to stand up, to wake up";
+152;"library";"li-brary";"a place with a lot of books";
+153;"miss";"miss";"to want, can't find";
+153;"backpack";"back-pack";"a bag that you carry on your back";
+153;"thief";"thief";"a person who steals things";
+153;"steal";"steal";"to take without asking";
+154;"leave";"leave";"to go away";
+154;"quick";"quick";"fast";
+155;"exercise";"ex-er-cise";"to move to try to be healthy, work out";
+155;"magazine";"mag-a-zine";"a thin book with lots of pictures and short stories";
+155;"day off";"day-off";"a day where you don't have to go to work";
+156;"focus";"fo-cus";"to pay attention";
+157;"hungry";"hun-gry";"to want to eat";
+157;"healthy";"health-y";"to not be sick, to be strong";
+157;"sick";"sick";"to have a problem with your body";
+157;"enormous";"e-nor-mous";"very big";
+157;"tiny";"ti-ny";"very small";
+158;"full";"full";"no room inside, can't put anything more inside";
+158;"vitamin";"vi-tam-in";"medicine that you eat every day like food";
+159;"toothpaste";"tooth-paste";"soap for your mouth";
+159;"armchair";"arm-chair";"a big chair with arms";
+159;"comfortable";"com-fort-ab-le";"to feel good, not sick, happy";
+159;"dull";"dull";"boring, not colorful";
+159;"shiny";"shi-ny";"with lots of light bouncing off";
+160;"on time";"on-time";"not early or late";
+162;"born";"born";"when you started life";
+162;"grow up";"grow-up";"to get bigger, to become an adult";
+162;"village";"vil-lage";"a very small city or town";
+162;"begin";"be-gin";"to start";
+162;"elementary";"el-e-ment-ar-y";"the starting stuff, the first things you learn";
+162;"factory";"fac-tor-y";"a big building where you can make things";
+162;"arrive";"ar-rive";"to come, to show up, to get to a place";
+163;"hobby";"hob-by";"something you like to do for fun";
+163;"hero";"he-ro";"a person who saves other people";
+164;"freckles";"freck-les";"red or brown dots on your face";
+164;"childhood";"child-hood";"the time when you are a child";
+165;"advertisement";"ad-ver-tise-ment";"a picture or movie that wants you to buy something";
