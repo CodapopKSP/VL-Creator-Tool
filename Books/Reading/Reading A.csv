@@ -73,11 +73,11 @@
 57;"alone";"a-lone";"one person, no friends";"The sad puppy is all alone."
 57;"hug";"hug";"to put your arms around someone you like";"She hugs her mom when she gets home."
 58;"neighbor";"neigh-bor";"a person who lives near you";"My neighbors are very noisy."
-61;"rodent";"ro-dent";"a small furry animal";
-61;"paw";"paw";"a furry animal's hand";
-61;"underground";"un-der-ground";"under the ground, under the floor";
-61;"skinny";"skin-ny";"small, thin, not fat";
-61;"body";"bod-y";"a part of a person with a heart and bones inside";
+61;"rodent";"ro-dent";"a small furry animal";"What is your favorite rodent?"
+61;"paw";"paw";"a furry animal's hand";"The cat licks its paws every day."
+61;"underground";"un-der-ground";"under the ground, under the floor";"The train goes underground when it gets to the city."
+61;"skinny";"skin-ny";"small, thin, not fat";"Don't you think that dog looks a bit too skinny?"
+61;"body";"bod-y";"a part of a person with a heart and bones inside";"Monkeys have hair all over their bodies."
 65;"usual";"u-su-al";"normal, not crazy";
 65;"nibble";"nib-ble";"to eat a little bit";
 65;"chase";"chase";"to run after and try to catch";
