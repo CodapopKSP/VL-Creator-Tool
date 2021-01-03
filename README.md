@@ -1,0 +1,3 @@
+# Vocab List Creator Tool
+
+The VL Creator Tool is a program that automates certain aspects of teaching preparation. It takes pre-built vocab word entries and compiles them into a weekly list based on the curriculum. It also handles other aspects of the vocab lists, such as dates and organization. First the user inputs the pages of curriculum into the boxes, and then they are able to choose however many words they'd like from the list to use for that week's vocab lessons.
