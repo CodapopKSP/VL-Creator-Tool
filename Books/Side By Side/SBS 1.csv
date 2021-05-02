@@ -194,87 +194,87 @@
 59;"elevator";"el-ev-a-tor";"a small room that can go up and down";"I'm sorry, but the elevator is broken today."
 60;"floor";"floor";"how many times you can go up to another part of a building";"My family lives on the top floor of the building."
 60;"machine";"ma-chine";"a thing that works for people";"We need to find someone who can fix this machine."
-62;"hole";"hole";"a missing piece, a circle in a wall";
-63;"mall";"mall";"a big store with many smaller stores inside";
-63;"airport";"air-port";"a place where airplanes can stop";
-63;"owner";"own-er";"a person who has something";
-63;"upset";"up-set";"not happy";
-64;"convenient";"con-ve-nient";"easy to go to, very close and easy";
-64;"sidewalk";"side-walk";"a road for walking next to the street";
-65;"town";"town";"a small city";
-66;"mouse";"mouse";"a small animal with big ears";
-66;"drug store";"drug-store";"a place where you can buy medicine";
-67;"shirt";"shirt";"clothes for the top of your body and arms";
-67;"coat";"coat";"clothes to wear outside to keep you warm";
-67;"dress";"dress";"clothes with a shirt on top and a skirt on the bottom";
-67;"skirt";"skirt";"the bottom of a dress";
-67;"blouse";"blouse";"a shirt for a woman";
-68;"tie";"tie";"a long ribbon that men wear around their necks";
-68;"jacket";"jack-et";"a small coat, thin coat";
-68;"belt";"belt";"a rope that keeps your pants up";
-68;"pants";"pants";"clothes for your legs";
-68;"sock";"sock";"clothes for your feet";
-68;"shoe";"shoe";"hard clothes for your feet";
-69;"umbrella";"um-brel-la";"a tool that keeps rain off of you";
-69;"sweater";"sweat-er";"a thick and warm shirt";
-69;"watch";"watch";"a clock for your arm";
-69;"necklace";"neck-lace";"jewelry for your neck";
-69;"boot";"boot";"big and tall shoes";
-70;"purse";"purse";"a woman's bag";
-70;"suit";"suit";"pants and jacket that look the same";
-71;"glove";"glove";"clothes for your hands";
-71;"pair";"pair";"two that look the same";
-71;"earring";"ear-ring";"jewelry for your ears";
-71;"pajamas";"pa-jam-as";"clothes that you wear to bed";
-72;"rip";"rip";"to pull apart, to break paper";
-72;"empty";"emp-ty";"nothing inside";
-73;"mistake";"mis-take";"a problem, something wrong";
-73;"glasses";"glass-es";"tools for your eyes to help you see";
-74;"mitten";"mit-ten";"warm gloves with no fingers";
-74;"briefcase";"brief-case";"a small box for carrying papers";
-75;"holiday";"hol-i-day";"vacation, a special day every year";
-75;"gift";"gift";"something nice to give someone";
-75;"trouble";"trou-ble";"when you did something bad and parents or teacher are angry";
-75;"leather";"leath-er";"made from the skin of an animal";
-75;"stripe";"stripe";"a line of color";
-75;"frustrated";"frus-tra-ted";"angry, unhappy";
-76;"dirty";"dirt-y";"not clean";
-77;"culture";"cul-ture";"the things people in a country do";
-77;"lucky";"luck-y";"when many good things happen to you";
-77;"sandal";"sand-al";"shoes with no top or sides";
-78;"rural";"rur-al";"not many people living somewhere";
-79;"sell";"sell";"to try to give for money";
-79;"shop";"shop";"a place where you can buy things";
-79;"visit";"vis-it";"to go to meet someone";
-79;"work";"work";"what you can do to make money";
-80;"French";"French";"a language spoken in France";
-80;"Spanish";"Span-ish";"a language spoken in Spain and Mexico";
-81;"Hong Kong";"Hong-Kong";"a big city near the South of China";
-82;"taxi";"tax-i";"a yellow car that you can ask to take you somewhere";
-82;"Washington D.C.";"Wash-ing-ton-D.-C.";"the capital of the USA";
-83;"grocery";"gro-cer-y";"food you can cook at home";
-83;"suburb";"sub-urb";"smaller cities near a bigger city";
-83;"usually";"u-su-al-ly";"normally, most days";
-83;"weekend";"week-end";"Saturday and Sunday";
-84;"language";"lan-guage";"a way people can speak to each other";
-84;"country";"count-ry";"a land with a government";
-85;"truck";"truck";"a big car that can move things";
-87;"clean";"clean";"to make less messy";
-87;"yoga";"yo-ga";"an exercise that involves sitting and stretching";
-87;"jog";"jog";"slow run";
-87;"play (n)";"play (n)";"when people act in a story on a stage";
-88;"Mexican";"Mex-i-can";"regarding things from Mexico";
-89;"Vietnamese";"Vi-et-nam-ese";"regarding things from Vietnam";
-90;"athletic";"ath-let-ic";"good at sports, about sports";
-90;"activity";"ac-tiv-it-y";"something you can do";
-90;"orchestra";"or-ches-tra";"many people playing music together";
-90;"baby-sit";"ba-by-sit";"to take care of someone's baby";
-90;"karate";"kar-a-te";"a way of fighting from Japan";
-90;"museum";"mu-se-um";"a place where you can see many old things";
-90;"concert";"con-cert";"when you watch other people play music";
-91;"tennis";"ten-nis";"a game where you hit a ball back and forth";
-91;"choir";"choir";"many people singing together";
-91;"volleyball";"vol-ley-ball";"a game where you hit a big ball over a net";
+62;"hole";"hole";"a missing piece, a circle in a wall";"The mouse runs through a hole in the wall."
+63;"mall";"mall";"a big store with many smaller stores inside";"We can buy many things at the mall."
+63;"airport";"air-port";"a place where airplanes can stop";"What time do you need to go to the airport?"
+63;"owner";"own-er";"a person who has something";"Who is the owner of this car?"
+63;"upset";"up-set";"not happy";"The kids are upset that they can't go to the park."
+64;"convenient";"con-ve-nient";"easy to go to, very close and easy";"The MRT is very convenient."
+64;"sidewalk";"side-walk";"a road for walking next to the street";"Walk on the sidewalk, not the street!"
+65;"town";"town";"a small city";"How many people live in the small town?"
+66;"mouse";"mouse";"a small animal with big ears";"The cat chases the mouse."
+66;"drug store";"drug-store";"a place where you can buy medicine";"We can buy it at the drug store."
+67;"shirt";"shirt";"clothes for the top of your body and arms";"There's a hole in your shirt!"
+67;"coat";"coat";"clothes to wear outside to keep you warm";"You should bring a coat to school today."
+67;"dress";"dress";"clothes with a shirt on top and a skirt on the bottom";"The bride wears a white dress."
+67;"skirt";"skirt";"the bottom of a dress";"She buys a new skirt for school."
+67;"blouse";"blouse";"a shirt for a woman";"Do you have this blouse in a size M?"
+68;"tie";"tie";"a long ribbon that men wear around their necks";"He wears a tie to work every day."
+68;"jacket";"jack-et";"a small coat, thin coat";"Don't forget to bring a jacket!"
+68;"belt";"belt";"a rope that keeps your pants up";"He needs a belt to keep his pants up."
+68;"pants";"pants";"clothes for your legs";"He rips his pants when he picks up the pen."
+68;"sock";"sock";"clothes for your feet";"I can't find my other sock!"
+68;"shoe";"shoe";"hard clothes for your feet";"Please leave your shoes outside."
+69;"umbrella";"um-brel-la";"a tool that keeps rain off of you";"Did you bring your umbrella today?"
+69;"sweater";"sweat-er";"a thick and warm shirt";"She wears a sweater on the cold day."
+69;"watch";"watch";"a clock for your arm";"Do you wear a watch every day?"
+69;"necklace";"neck-lace";"jewelry for your neck";"This necklace was my grandmother's."
+69;"boot";"boot";"big and tall shoes";"You should wear boots if you are climbing the mountain."
+70;"purse";"purse";"a woman's bag";"How much money is in your purse?"
+70;"suit";"suit";"pants and jacket that look the same";"Do you wear a suit to work?"
+71;"glove";"glove";"clothes for your hands";"He wears gloves when he cleans the bathroom."
+71;"pair";"pair";"two that look the same";"She buys a new pair of shoes."
+71;"earring";"ear-ring";"jewelry for your ears";"Your earrings are very pretty!"
+71;"pajamas";"pa-jam-as";"clothes that you wear to bed";"Do you wear pajamas to bed?"
+72;"rip";"rip";"to pull apart, to break paper";"Be careful not to rip your homework!"
+72;"empty";"emp-ty";"nothing inside";"She is thirsty, but the bottle is empty."
+73;"mistake";"mis-take";"a problem, something wrong";"I think I made a mistake on my test."
+73;"glasses";"glass-es";"tools for your eyes to help you see";"Can you see without your glasses?"
+74;"mitten";"mit-ten";"warm gloves with no fingers";"The children wear mittens to play in the snow."
+74;"briefcase";"brief-case";"a small box for carrying papers";"Does your father take a briefcase to work?"
+75;"holiday";"hol-i-day";"vacation, a special day every year";"Where did you go for your holiday?"
+75;"gift";"gift";"something nice to give someone";"We can buy our friend a nice gift."
+75;"trouble";"trou-ble";"when you did something bad and parents or teacher are angry";"If you break the rules, then you will get in trouble."
+75;"leather";"leath-er";"made from the skin of an animal";"He has a nice leather bag."
+75;"stripe";"stripe";"a line of color";"His shirt has black stripes on it."
+75;"frustrated";"frus-tra-ted";"angry, unhappy";"What do you do when you are frustrated with your homework?"
+76;"dirty";"dirt-y";"not clean";"Can you clean the dirty dishes?"
+77;"culture";"cul-ture";"the things people in a country do";"What is something from Taiwanese culture?"
+77;"lucky";"luck-y";"when many good things happen to you";"You are lucky the teacher didn't see you!"
+77;"sandal";"sand-al";"shoes with no top or sides";"They kick off their sandals when they get to the beach."
+78;"rural";"rur-al";"not many people living somewhere";"She lives in a rural town."
+79;"sell";"sell";"to try to give for money";"Do you have anything good you'd like to sell?"
+79;"shop";"shop";"a place where you can buy things";"This is my favorite shop in the market!"
+79;"visit";"vis-it";"to go to meet someone";"We visit my grandmother every year."
+79;"work";"work";"what you can do to make money";"What do you do for work?"
+80;"French";"French";"a language spoken in France";"Do you know how to speak any French?"
+80;"Spanish";"Span-ish";"a language spoken in Spain and Mexico";"I'm sorry, but my Spanish isn't very good."
+81;"Hong Kong";"Hong-Kong";"a big city near the South of China";"Have you ever been to Hong Kong?"
+82;"taxi";"tax-i";"a yellow car that you can ask to take you somewhere";"We can ride a taxi to the restaurant."
+82;"Washington D.C.";"Wash-ing-ton-D.-C.";"the capital of the USA";"Do you know who lives in Washington D.C.?"
+83;"grocery";"gro-cer-y";"food you can cook at home";"Can you buy milk at the grocery store?"
+83;"suburb";"sub-urb";"smaller cities near a bigger city";"My parents live in the suburbs."
+83;"usually";"u-su-al-ly";"normally, most days";"What time do you usually get up?"
+83;"weekend";"week-end";"Saturday and Sunday";"What are you going to do this weekend?"
+84;"language";"lan-guage";"a way people can speak to each other";"How many languages can you speak?"
+84;"country";"count-ry";"a land with a government";"How many countries have you been to?"
+85;"truck";"truck";"a big car that can move things";"The truck drives over the big rock."
+87;"clean";"clean";"to make less messy";"Make sure you clean your desk!"
+87;"yoga";"yo-ga";"an exercise that involves sitting and stretching";"He does yoga every Saturday at 1:00."
+87;"jog";"jog";"slow run";"She jogs to school in the morning."
+87;"play (n)";"play (n)";"when people act in a story on a stage";"Would you like to see a play with me?"
+88;"Mexican";"Mex-i-can";"regarding things from Mexico";"They like to watch Mexican movies."
+89;"Vietnamese";"Vi-et-nam-ese";"regarding things from Vietnam";"Are therer any good Vietnamese restaurants around here?"
+90;"athletic";"ath-let-ic";"good at sports, about sports";"My friend is very athletic."
+90;"activity";"ac-tiv-it-y";"something you can do";"We can do another activity."
+90;"orchestra";"or-ches-tra";"many people playing music together";"How many people are in the orchestra?"
+90;"baby-sit";"ba-by-sit";"to take care of someone's baby";"We need to find a baby-sitter for Friday night."
+90;"karate";"kar-a-te";"a way of fighting from Japan";"Do you know how to do karate?"
+90;"museum";"mu-se-um";"a place where you can see many old things";"What kind of museum is this?"
+90;"concert";"con-cert";"when you watch other people play music";"How much are the concert tickets?"
+91;"tennis";"ten-nis";"a game where you hit a ball back and forth";"We play tennis every weekend."
+91;"choir";"choir";"many people singing together";"He sings in a choir with his friends."
+91;"volleyball";"vol-ley-ball";"a game where you hit a big ball over a net";"Is volleyball difficult to play?"
 92;"important";"im-por-tant";"need to know, need to remember";
 92;"during";"dur-ing";"at the same time";
 92;"alone";"a-lone";"only one person, no friends";

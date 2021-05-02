@@ -1,3 +1,5 @@
+import sys
+print(sys.executable)
 
 # === Setup =======================================================================
 import tkinter as tk
