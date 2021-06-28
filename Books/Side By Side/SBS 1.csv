@@ -275,79 +275,79 @@
 91;"tennis";"ten-nis";"a game where you hit a ball back and forth";"We play tennis every weekend."
 91;"choir";"choir";"many people singing together";"He sings in a choir with his friends."
 91;"volleyball";"vol-ley-ball";"a game where you hit a big ball over a net";"Is volleyball difficult to play?"
-92;"important";"im-por-tant";"need to know, need to remember";
-92;"during";"dur-ing";"at the same time";
-92;"alone";"a-lone";"only one person, no friends";
-92;"garden";"gar-den";"a place where you can grow flowers or food";
-93;"instrument";"in-stru-ment";"a tool, a thing that can make music";
-94;"outgoing";"out-go-ing";"friendly, has many friends";
-94;"person";"per-son";"someone, one ""people""";
-94;"party";"part-y";"when many people have fun together";
-94;"shy";"shy";"doesn't like to talk, scared of people";
-95;"movie star";"mo-vie-star";"a famous person in a movie";
-95;"fiction";"fic-tion";"not real";
-95;"cartoon";"car-toon";"drawings that move on TV";
-96;"golf";"golf";"a game where you hit a small ball into a hole";
-96;"team";"team";"many people playing a game together";
-96;"lesson";"les-son";"something you can learn and remember";
-96;"hockey";"hock-ey";"a game where you skate on ice and hit a puck into a net";
-97;"common";"com-mon";"usual, easy to see every day";
-97;"internet";"in-ter-net";"many computers connected together";
-97;"dressed";"dressed";"to put on clothes to start the day";
-98;"active";"ac-tive";"likes to do many things";
-98;"jazz";"jazz";"music that involves many horns and old instruments for dancing";
-98;"novel";"nov-el";"a story book";
-98;"poetry";"po-et-ry";"pretty words that tell a story";
-99;"morning";"mor-ning";"the early part of the day, before noon";
-99;"afternoon";"af-ter-noon";"after lunch time";
-100;"boyfriend";"boy-friend";"a boy that someone likes and is dating";
-101;"rarely";"rare-ly";"almost never";
-101;"sometimes";"some-times";"more than rarely but not usually";
-101;"never";"nev-er";"no times, opposite of always";
-101;"evening";"eve-ning";"when it's starting to get dark outside, before night";
-102;"elevator";"el-e-va-tor";"a small room that goes up and down";
-102;"escalator";"es-cal-a-tor";"stairs that move up or down";
-102;"straight";"straight";"not turning, no curves";
-102;"motorcycle";"mo-tor-cy-cle";"a bike that uses gas to drive";
-103;"curly";"cur-ly";"making a circle";
-103;"journalist";"jour-nal-ist";"a person who works for a newspaper";
-103;"member";"mem-ber";"someone who is part of a group";
-104;"lucky";"luck-y";"when good things happen to you";
-104;"scientist";"sci-en-tist";"a person who studies the world";
-104;"travel";"trav-el";"to go to another country or city";
-104;"world";"world";"all places on Earth";
-105;"television";"tel-e-vis-ion";"TV";
-105;"computer";"com-pu-ter";"a machine that can connect to the internet";
-106;"often";"of-ten";"usually, many times";
-106;"library";"li-brar-y";"a place with many books";
-107;"thirsty";"thirst-y";"needs water";
-107;"nervous";"ner-vous";"scared of something that will happen";
-107;"scared";"scared";"afraid";
-108;"smile";"smile";"the shape your mouth makes when you're happy";
-108;"shiver";"shiv-er";"to shake when you are cold or scared";
-109;"perspire";"per-spire";"to sweat, when water comes out of your body when you are hot or scared";
-109;"blush";"blush";"when your face turns red";
-109;"embarrassed";"em-bar-rassed";"to make a mistake and everyone sees it";
-109;"yawn";"yawn";"to open your mouth when you are tired";
-109;"cover";"cov-er";"to make it so people can't see something";
-109;"nails";"nails";"the hard part at the end of your finger";
-110;"dishes";"dish-es";"dirty plates and cups that need to be washed";
-110;"bathtub";"bath-tub";"a tub where you can clean yourself in";
-111;"lamp";"lamp";"a light that stands on the ground";
-111;"flashlight";"flash-light";"a light you can hold";
-111;"sweep";"sweep";"to use a broom to clean the floor";
-111;"carpet";"car-pet";"a cover for the floor";
-112;"staff";"staff";"people who work at a place";
-112;"employee";"em-ploy-ee";"a person who works at a place";
-112;"unfortunate";"un-for-tu-nate";"not good, sad, bad luck";
-112;"job";"job";"work, something you do for money";
-112;"type";"type";"to use a computer to make words";
-112;"secretary";"sec-ret-ary";"a person who works at an office to help the boss";
-113;"rush";"rush";"to go faster, to try to complete quickly";
-113;"deliver";"de-liv-er";"to bring something to someone";
-113;"traffic";"traf-fic";"many cars on the road";
-114;"bite";"bite";"to use your teeth to eat";
-114;"shout";"shout";"to make a loud noise from your mouth";
+92;"important";"im-por-tant";"need to know, need to remember";"It is important to do your homework!"
+92;"during";"dur-ing";"at the same time";"He falls asleep during class."
+92;"alone";"a-lone";"only one person, no friends";"He walks into the forest alone."
+92;"garden";"gar-den";"a place where you can grow flowers or food";"There are many flowers in the garden."
+93;"instrument";"in-stru-ment";"a tool, a thing that can make music";"Can you play a musical instrument?"
+94;"outgoing";"out-go-ing";"friendly, has many friends";"She is more outgoing than her sister."
+94;"person";"per-son";"someone, one ""people""";"That person is very tall."
+94;"party";"part-y";"when many people have fun together";"Are you going to the pool party?"
+94;"shy";"shy";"doesn't like to talk, scared of people";"The new cat is shy and always runs away."
+95;"movie star";"mo-vie-star";"a famous person in a movie";"Have you ever met your favorite movie star?"
+95;"fiction";"fic-tion";"not real";"Do you lie to read fiction books?"
+95;"cartoon";"car-toon";"drawings that move on TV";"He watches cartoons every weekend."
+96;"golf";"golf";"a game where you hit a small ball into a hole";"Do you know how to play golf?"
+96;"team";"team";"many people playing a game together";"How many players are on the team?"
+96;"lesson";"les-son";"something you can learn and remember";"He learned a hard lesson today."
+96;"hockey";"hock-ey";"a game where you skate on ice and hit a puck into a net";"How about we play some hockey?"
+97;"common";"com-mon";"usual, easy to see every day";"It is common to see trash at the beach."
+97;"internet";"in-ter-net";"many computers connected together";"We can buy it on the internet."
+97;"dressed";"dressed";"to put on clothes to start the day";"Get dressed and go to school!"
+98;"active";"ac-tive";"likes to do many things";"She is very active on the weekends."
+98;"jazz";"jazz";"music that involves many horns and old instruments for dancing";"Do you listen to jazz music?"
+98;"novel";"nov-el";"a story book";"We are reading a very interesting novel in class."
+98;"poetry";"po-et-ry";"pretty words that tell a story";"Where can I find a book of poetry?"
+99;"morning";"mor-ning";"the early part of the day, before noon";"They eat breakfast together every morning."
+99;"afternoon";"af-ter-noon";"after lunch time";"We can meet this afternoon."
+100;"boyfriend";"boy-friend";"a boy that someone likes and is dating";"Her boyfriend is a doctor."
+101;"rarely";"rare-ly";"almost never";"She rarely forgets to do her homework."
+101;"sometimes";"some-times";"more than rarely but not usually";"Sometimes I like to go to the beach."
+101;"never";"nev-er";"no times, opposite of always";"They never eat dinner together."
+101;"evening";"eve-ning";"when it's starting to get dark outside, before night";"Where were you yesterday evening?"
+102;"elevator";"el-e-va-tor";"a small room that goes up and down";"Sorry, but the elevator is broken today."
+102;"escalator";"es-cal-a-tor";"stairs that move up or down";"Be careful not to fall on the escalator!"
+102;"straight";"straight";"not turning, no curves";"Go straight down this road."
+102;"motorcycle";"mo-tor-cy-cle";"a bike that uses gas to drive";"Do you know how to ride a motorcycle?"
+103;"curly";"cur-ly";"making a circle";"Bob has curly hair."
+103;"journalist";"jour-nal-ist";"a person who works for a newspaper";"My sister is a jounalist for the newspaper."
+103;"member";"mem-ber";"someone who is part of a group";"He is a member of my family."
+104;"lucky";"luck-y";"when good things happen to you";"You must be the luckiest person in the world!"
+104;"scientist";"sci-en-tist";"a person who studies the world";"What kind of scientist studies dinosaurs?"
+104;"travel";"trav-el";"to go to another country or city";"Let's travel to Japan this summer!"
+104;"world";"world";"all places on Earth";"What is your favorite place in the whole world?"
+105;"television";"tel-e-vis-ion";"TV";"She watches television every day."
+105;"computer";"com-pu-ter";"a machine that can connect to the internet";"How often do you use your computer?"
+106;"often";"of-ten";"usually, many times";"How often does he swim in the lake?"
+106;"library";"li-brar-y";"a place with many books";"We can check out some books at the library."
+107;"thirsty";"thirst-y";"needs water";"If you are thirsty, you can get some water."
+107;"nervous";"ner-vous";"scared of something that will happen";"That scary mask is making me nervous."
+107;"scared";"scared";"afraid";"Are you scared of the dark?"
+108;"smile";"smile";"the shape your mouth makes when you're happy";"The boy and girl smile at each other."
+108;"shiver";"shiv-er";"to shake when you are cold or scared";"She is shivering because it's cold."
+109;"perspire";"per-spire";"to sweat, when water comes out of your body when you are hot or scared";"He is perspiring because it's hot."
+109;"blush";"blush";"when your face turns red";"Do you blush when everyone looks at you?"
+109;"embarrassed";"em-bar-rassed";"to make a mistake and everyone sees it";"He feels embarrassed because he ripped his pants."
+109;"yawn";"yawn";"to open your mouth when you are tired";"The sleepy dog yawns and rolls over."
+109;"cover";"cov-er";"to make it so people can't see something";"Cover your mouth when you cough!"
+109;"nails";"nails";"the hard part at the end of your finger";"If your nails are long, you should cut them."
+110;"dishes";"dish-es";"dirty plates and cups that need to be washed";"'"
+110;"bathtub";"bath-tub";"a tub where you can clean yourself in";"'"
+111;"lamp";"lamp";"a light that stands on the ground";"'"
+111;"flashlight";"flash-light";"a light you can hold";"'"
+111;"sweep";"sweep";"to use a broom to clean the floor";"'"
+111;"carpet";"car-pet";"a cover for the floor";"'"
+112;"staff";"staff";"people who work at a place";"'"
+112;"employee";"em-ploy-ee";"a person who works at a place";"'"
+112;"unfortunate";"un-for-tu-nate";"not good, sad, bad luck";"'"
+112;"job";"job";"work, something you do for money";"'"
+112;"type";"type";"to use a computer to make words";"'"
+112;"secretary";"sec-ret-ary";"a person who works at an office to help the boss";"'"
+113;"rush";"rush";"to go faster, to try to complete quickly";"'"
+113;"deliver";"de-liv-er";"to bring something to someone";"'"
+113;"traffic";"traf-fic";"many cars on the road";"'"
+114;"bite";"bite";"to use your teeth to eat";"'"
+114;"shout";"shout";"to make a loud noise from your mouth";"'"
 115;"hour";"hour";"60 minutes";
 115;"subway";"sub-way";"underground train";
 115;"result";"re-sult";"something that happens after you do something";
